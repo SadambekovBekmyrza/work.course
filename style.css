@@ -67,3 +67,13 @@ form img {
   padding-top: 15%;
   padding-bottom: 7%;
 }
+
+.kion {
+  padding: 250px 0;
+}
+.kion .row {
+  align-items: center;
+}
+.kion ul {
+  list-style-type: none;
+}
