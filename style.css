@@ -52,3 +52,12 @@ form img {
   justify-content: space-between;
   flex-wrap: wrap;
 }
+
+.product {
+  padding-left: 5%;
+  padding-top: 7%;
+  padding-right: 9%;
+  padding-bottom: 8%;
+  display: flex;
+  justify-content: space-between;
+}
