@@ -4,3 +4,27 @@
 body {
   margin: 0;
 }
+nav div {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 0;
+}
+#navbarNav {
+  padding-left: 22%;
+}
+nav .nav-link {
+  margin: 0 10px;
+}
+.mlbb {
+  background-color: #283337;
+  color: white;
+  border-radius: 20px;
+  padding: 10px 15px;
+  border: none;
+}
+form img {
+  margin-right: 25px;
+  padding: 9px;
+  border: 1px solid #40494d;
+  border-radius: 50%;
+}
