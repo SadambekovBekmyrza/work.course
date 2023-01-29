@@ -86,3 +86,7 @@ form img {
   background-color: #f1f1f1;
   padding: 120px 0;
 }
+
+footer img {
+  width: 100%;
+}
