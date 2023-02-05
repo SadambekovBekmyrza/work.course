@@ -76,8 +76,9 @@ span {
   background-color: white;
   border: solid 1px #283337;
   border-radius: 50%;
-  padding: 10px 10px;
-  margin-left: 10px;
+  padding: 10px 13px;
+  margin-right: 15px;
+  height: 45px;
 }
 
 .btn-dark {
@@ -87,12 +88,12 @@ span {
   font-size: 17px;
   font-family: "Arial";
   padding: 10px 15px;
-  border: solid 1px #283337;
+  border: none;
+  height: 45px;
 }
 
 .mlbb-btn {
-  margin-left: 100px;
-  align-items: center;
+  margin-left: 120px;
 }
 
 #checkbox-toggle {
