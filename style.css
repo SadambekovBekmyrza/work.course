@@ -3,6 +3,12 @@
 }
 body {
   margin: 0;
+  min-width: 320px;
+}
+
+main {
+  background-color: gray;
+  padding: 100px;
 }
 
 li {
@@ -35,4 +41,158 @@ a,
 p,
 span {
   color: #40494d;
+  font-family: "Arial";
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 15px 50px;
+}
+
+.nav-links {
+  margin-left: auto;
+}
+
+.nav-links a {
+  font-size: 15px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.menu li {
+  padding: 5px 20px;
+}
+
+.menu li:hover {
+  transition: all 0.3s;
+  color: gray;
+}
+
+.search {
+  background-color: white;
+  border: solid 1px #283337;
+  border-radius: 50%;
+  padding: 10px 10px;
+  margin-left: 10px;
+}
+
+.btn-dark {
+  background-color: #283337;
+  border-radius: 56px;
+  color: white;
+  font-size: 17px;
+  font-family: "Arial";
+  padding: 10px 15px;
+  border: solid 1px #283337;
+}
+
+.mlbb-btn {
+  margin-left: 100px;
+  align-items: center;
+}
+
+#checkbox-toggle {
+  display: none;
+}
+
+button,
+a,
+li {
+  cursor: pointer;
+}
+
+.hamburger {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.hamburger-line {
+  background-color: #283337;
+  display: block;
+  height: 2px;
+  position: relative;
+  width: 24px;
+}
+
+.hamburger-line::before,
+.hamburger-line::after {
+  background-color: #283337;
+  content: "";
+  display: block;
+  position: absolute;
+  transition: all 0.3s;
+  width: 100%;
+  height: 100%;
+}
+
+.hamburger-line::before {
+  top: 7px;
+}
+
+.hamburger-line::after {
+  top: -7px;
+}
+
+@media (max-width: 890px) {
+  .menu {
+    /* display: none; */
+    max-height: 0;
+    overflow: hidden;
+    position: absolute;
+    background-color: white;
+    text-align: center;
+    right: 0;
+    left: 0;
+  }
+
+  .menu li a {
+    color: #283337;
+    display: block;
+    padding: 5px;
+  }
+
+  .menu li {
+    transition: all 0.3s;
+  }
+
+  .menu li:hover {
+    background-color: rgba(166, 169, 255, 0.795);
+    color: #283337;
+  }
+
+  #checkbox-toggle:checked ~ .menu {
+    display: block;
+    max-height: 100%;
+    transition: all 0.5s;
+  }
+
+  .hamburger {
+    display: block;
+    padding: 20px 0;
+  }
+
+  #checkbox-toggle:checked ~ .hamburger .hamburger-line {
+    background-color: transparent;
+  }
+
+  #checkbox-toggle:checked ~ .hamburger .hamburger-line::before {
+    transform: rotate(-45deg);
+    top: 0;
+  }
+
+  #checkbox-toggle:checked ~ .hamburger .hamburger-line::after {
+    transform: rotate(45deg);
+    top: 0;
+  }
+}
+
+@media (max-width: 980px) {
+  .mlbb-btn {
+    margin-left: 20px;
+  }
 }
