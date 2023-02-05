@@ -4,3 +4,35 @@
 body {
   margin: 0;
 }
+
+li {
+  list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #283337;
+}
+
+h1,
+h2 {
+  font-size: 60px;
+}
+
+h1 {
+  font-weight: 400;
+}
+
+h2 {
+  font-weight: 700;
+}
+
+a,
+p,
+span {
+  color: #40494d;
+}
