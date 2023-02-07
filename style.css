@@ -135,11 +135,6 @@ span {
   padding: 5px 20px;
 }
 
-.menu li:hover {
-  transition: all 0.3s;
-  color: gray;
-}
-
 .search {
   background-color: white;
   border: solid 1px #283337;
