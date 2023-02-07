@@ -75,22 +75,48 @@ body {
   flex: 100% 1 1;
 }
 
-li {
-  list-style-type: none;
-}
-
 h1,
 h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+span {
   color: #283337;
+}
+
+.size-s {
+  font-size: 11px;
+}
+.size-ss {
+  font-size: 16px;
+}
+.size-ssa {
+  font-size: 17px;
+}
+.size-ssaa {
+  font-size: 18px;
+}
+.size-sss {
+  font-size: 21px;
+}
+.size-5 {
+  font-size: 33px;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+span {
+  font-size: 17px;
+  font-weight: 700;
 }
 
 h1,
 h2 {
   font-size: 60px;
+  font-family: "Times New Roman";
 }
 
 h1 {
@@ -106,8 +132,7 @@ h3 {
 }
 
 a,
-p,
-span {
+p {
   color: #40494d;
   font-family: "Arial";
 }
@@ -115,7 +140,7 @@ span {
 .navbar {
   display: flex;
   align-items: center;
-  padding: 15px 50px;
+  padding: 15px 40px;
 }
 
 .nav-links {
@@ -123,7 +148,7 @@ span {
 }
 
 .nav-links a {
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .menu {
@@ -165,9 +190,11 @@ span {
 
 button,
 a,
-li {
+li,
+span {
   cursor: pointer;
   text-decoration: none;
+  list-style-type: none;
 }
 
 .hamburger {
@@ -324,5 +351,59 @@ header {
 @media (max-width: 499px) {
   .header-img {
     display: none;
+  }
+}
+
+.text-end {
+  display: flex;
+  justify-content: end;
+}
+
+.product {
+  padding: 90px 40px;
+}
+
+.card {
+  background-color: #ededed;
+  padding: 64px;
+}
+
+@media (max-width: 1440px) and (min-width: 320px) {
+  .product .row {
+    align-items: normal;
+  }
+  .product .box-1 {
+    margin-top: -40px;
+  }
+}
+
+@media (max-width: 1160px) and (min-width: 320px) {
+  .text-end {
+    display: flex;
+    justify-content: center;
+  }
+  .product .box-1 {
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 690px) {
+  .product {
+    padding: 90px 20px;
+  }
+  .product .card {
+    padding: 60px 50px;
+  }
+  .product br {
+    display: none;
+  }
+}
+
+@media (max-width: 431px) {
+  .product {
+    padding: 90px 0;
+  }
+  .product .container {
+    padding: 0 2px;
   }
 }
