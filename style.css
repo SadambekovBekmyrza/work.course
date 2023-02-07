@@ -101,6 +101,10 @@ h2 {
   font-weight: 700;
 }
 
+h3 {
+  font-size: 32px;
+}
+
 a,
 p,
 span {
@@ -214,6 +218,7 @@ li {
     text-align: center;
     right: 0;
     left: 0;
+    border-bottom: solid 5px white;
   }
 
   .menu li a {
@@ -309,7 +314,8 @@ header {
 
 @media (max-width: 730px) {
   .header-img {
-    display: none;
+    width: 400px;
+    height: 400px;
   }
   .br {
     margin-top: 100px;
@@ -317,5 +323,11 @@ header {
   header {
     padding-top: 120px;
     padding-bottom: 100px;
+  }
+}
+
+@media (max-width: 499px) {
+  .header-img {
+    display: none;
   }
 }
