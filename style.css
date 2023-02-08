@@ -429,3 +429,20 @@ header {
     flex-direction: column-reverse;
   }
 }
+
+.built {
+  text-align: center;
+  padding-bottom: 150px;
+}
+
+@media (max-width: 1160px) and (min-width: 850px) {
+  .built .row {
+    flex-wrap: nowrap;
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.built img {
+  margin-bottom: 50px;
+}
