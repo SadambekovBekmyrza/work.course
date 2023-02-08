@@ -422,12 +422,6 @@ header {
   }
 }
 
-@media (max-width: 1080px) {
-  .results {
-    padding: 150px 0;
-  }
-}
-
 @media (max-width: 1000px) {
   .results .row {
     flex-wrap: wrap;
