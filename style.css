@@ -409,7 +409,7 @@ header {
 }
 
 .results {
-  padding: 150px 40px;
+  padding: 150px 0;
   background-color: #ededed;
   text-align: center;
 }
