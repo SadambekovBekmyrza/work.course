@@ -3,8 +3,6 @@
 }
 body {
   margin: 0;
-  min-width: 320px;
-  max-width: 1440px;
 }
 
 .container {
@@ -454,4 +452,12 @@ header {
   text-align: center;
   background-color: #ededed;
   padding: 80px 0 150px 0;
+}
+
+.kion {
+  padding: 250px 0 130px 0;
+}
+
+video {
+  width: 90%;
 }
