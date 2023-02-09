@@ -461,3 +461,9 @@ header {
 video {
   width: 90%;
 }
+
+@media (min-width: 1161px) {
+  .kion li {
+    padding-left: 30px;
+  }
+}
