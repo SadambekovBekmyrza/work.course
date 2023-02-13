@@ -334,8 +334,7 @@ header {
 
 @media (max-width: 730px) {
   .header-img {
-    width: 400px;
-    height: 400px;
+    width: 100%;
   }
   .br {
     margin-top: 100px;
@@ -343,12 +342,6 @@ header {
   header {
     padding-top: 120px;
     padding-bottom: 100px;
-  }
-}
-
-@media (max-width: 499px) {
-  .header-img {
-    display: none;
   }
 }
 
