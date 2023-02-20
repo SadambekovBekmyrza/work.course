@@ -88,7 +88,7 @@ span {
 }
 
 .size-s {
-  font-size: 11px;
+  font-size: 12px;
 }
 .size-ss {
   font-size: 16px;
@@ -487,4 +487,89 @@ footer .footer-box-1 button {
 
 footer .footer-box-1 .icon a {
   margin: 0 12px;
+}
+
+footer .footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .footer .footer-box-2 .words {
+  display: flex;
+  align-items: center;
+  margin-top: inherit;
+}
+
+footer .footer .footer-box-2 .links {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .footer .footer-box-2 .links li {
+  margin: 15px 0;
+}
+
+footer .footer .footer-box-2 .links ul {
+  margin: 0;
+  padding: 0;
+}
+
+.footer-img {
+  padding-top: 12px;
+}
+
+footer .footer .footer-box-2 .words p {
+  margin-left: 130px;
+}
+
+footer .footer .footer-box-2 .words .li {
+  margin-left: 50px;
+}
+
+footer .footer .footer-box-2 .email {
+  margin-top: 65px;
+}
+
+h4 {
+  color: #cfd2d3;
+  font-size: 19;
+  font-weight: 400;
+  font-family: "Arial";
+}
+
+.form {
+  display: flex;
+  margin-bottom: 29.5%;
+  align-items: center;
+}
+
+.form-group {
+  width: 65%;
+  position: relative;
+}
+
+.form-label {
+  position: absolute;
+  color: #878d90;
+  left: 20px;
+  top: 17px;
+}
+
+.form-input {
+  width: 95%;
+  padding: 20px 0;
+  border: none;
+  transition: 0.3s;
+  border-radius: 5px;
+  cursor: default;
+}
+
+.form-input:focus {
+  border: none;
+  box-shadow: 0 0 10px white;
+  padding: 20px;
+}
+
+.form-input:focus ~ .form-label {
+  display: none;
 }
